@@ -1,5 +1,9 @@
 print " Hello world ! Bienvenue dans la super pyramide ! Pour choisir un nombre d'étage, donne moi un nombre entre 1 et 25 : "
 floor = gets.chomp.to_i
+while floor < 1 or floor > 25
+  print "Pour choisir un nombre d'étage, donne moi un nombre entre 1 et 25 : "
+  floor = gets.chomp.to_i
+end
 
 debut_etage = 0
 
