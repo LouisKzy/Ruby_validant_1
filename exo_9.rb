@@ -1,6 +1,6 @@
 print "Quel est votre année de naissance ? > "
 b_y = gets.chomp.to_i
-today = 2023
+today = Time.now.year
 age = 0
 
 (b_y..today).each do |year|
