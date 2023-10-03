@@ -5,7 +5,7 @@ print "Quel est votre prenom ? >"
 prenom = gets.chomp  # option personalisation 
 print "quel est votre nom ? >"
 nom = gets.chomp # option personalisation 
-data_base = []  # création d'un tableau
+data_base = []  # création d'un tableau/liste
 
 while nb_mails <= range # generation pour nb email
   email = "#{prenom}.#{nom}#{nb_mails}@email.com" # comment l'email est formé
